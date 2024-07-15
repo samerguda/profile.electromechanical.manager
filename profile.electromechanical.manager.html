@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Goals and Key Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+        }
+        .copy-btn {
+            background-color: #4CAF50;
+        }
+        .print-btn {
+            background-color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Career Goals and Key Skills</h2>
+    <p><strong>English:</strong></p>
+    <p>As a dedicated electromechanical manager specializing in HVAC, fire fighting, and plumbing systems, my career goals revolve around advancing sustainable and efficient building technologies. I aim to leverage my expertise to design and implement innovative solutions that enhance safety, comfort, and energy efficiency in both residential and commercial structures. My key skills include proficiency in system design, project management, and a strong understanding of industry standards and regulations. I am committed to continuous learning and staying at the forefront of emerging technologies to contribute to the evolution of building engineering.</p>
+    
+    <p><strong>Arabic:</strong></p>
+    <p>كمدير ميكانيكي كهربائي متخصص في أنظمة التدفئة والتهوية وتكييف الهواء وأنظمة مكافحة الحرائق والسباكة، فإن أهدافي المهنية تتمحور حول تعزيز التقنيات المستدامة والفعالة للمباني. أهدف إلى استغلال خبرتي لتصميم وتنفيذ حلول مبتكرة تعزز السلامة والراحة وكفاءة الطاقة في الهياكل السكنية والتجارية. تشمل مهاراتي الرئيسية الكفاءة في تصميم الأنظمة، وإدارة المشاريع، وفهم عميق للمعايير واللوائح الصناعية. أنا ملتزم بالتعلم المستمر والبقاء في طليعة التقنيات الناشئة للمساهمة في تطوير هندسة المباني.</p>
+    
+    <button class="copy-btn" onclick="copyText()">Copy</button>
+    <button class="print-btn" onclick="window.print()">Print</button>
+</div>
+
+<script>
+    function copyText() {
+        const text = `As a dedicated electromechanical manager specializing in HVAC, fire fighting, and plumbing systems, my career goals revolve around advancing sustainable and efficient building technologies. I aim to leverage my expertise to design and implement innovative solutions that enhance safety, comfort, and energy efficiency in both residential and commercial structures. My key skills include proficiency in system design, project management, and a strong understanding of industry standards and regulations. I am committed to continuous learning and staying at the forefront of emerging technologies to contribute to the evolution of building engineering.\n\nكمدير ميكانيكي كهربائي متخصص في أنظمة التدفئة والتهوية وتكييف الهواء وأنظمة مكافحة الحرائق والسباكة، فإن أهدافي المهنية تتمحور حول تعزيز التقنيات المستدامة والفعالة للمباني. أهدف إلى استغلال خبرتي لتصميم وتنفيذ حلول مبتكرة تعزز السلامة والراحة وكفاءة الطاقة في الهياكل السكنية والتجارية. تشمل مهاراتي الرئيسية الكفاءة في تصميم الأنظمة، وإدارة المشاريع، وفهم عميق للمعايير واللوائح الصناعية. أنا ملتزم بالتعلم المستمر والبقاء في طليعة التقنيات الناشئة للمساهمة في تطوير هندسة المباني.`;
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Text copied to clipboard');
+        });
+    }
+</script>
+
+</body>
+</html>
